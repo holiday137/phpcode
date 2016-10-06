@@ -38,28 +38,28 @@ echo '<br />' . '欢迎光临' . '<br/>';
 <a href="#" class="weui_btn weui-btn_mini weui-btn_primary">按钮</a>
 <a href="#" class="weui_btn weui-btn_mini weui-btn_default">按钮</a> </div>
 <form>
-  <div class="weui_cells_title">制卡进度查询</div>
-<div class="weui_cells weui_cells_form">
-    <div class="weui_cell">
-        <div class="weui_cell_hd">
-            <label class="weui_label">姓名</label>
+  <div class="weui-cells_title">制卡进度查询</div>
+<div class="weui-cells weui-cells_form">
+    <div class="weui-cell">
+        <div class="weui-cell_hd">
+            <label class="weui-label">姓名</label>
         </div>
-        <div class="weui_cell_bd weui_cell_primary">
-            <input class="weui_input" name="name" type="text" placeholder="请在此输入姓名" />
+        <div class="weui-cell_bd weui-cell_primary">
+            <input class="weui-input" name="name" type="text" placeholder="请在此输入姓名" />
         </div>
     </div>
-    <div class="weui_cell">
-        <div class="weui_cell_hd">
-            <label class="weui_label">身份证</label>
+    <div class="weui-cell">
+        <div class="weui-cell_hd">
+            <label class="weui-label">身份证</label>
         </div>
-        <div class="weui_cell_bd weui_cell_primary">
-            <input class="weui_input" name="idcard" type="text" placeholder="请在此输入身份证号" />
+        <div class="weui-cell_bd weui-cell_primary">
+            <input class="weui-input" name="idcard" type="text" placeholder="请在此输入身份证号" />
         </div>
     </div>
 </div>
-<p class="weui_cells_tips">提示:目前只能查询金融社保卡制卡进度</p>
-<div class="weui_btn_area">
-    <a class="weui_btn weui_btn_primary" id="button" href="javascript:">查询</a>
+<p class="weui-cells_tips">提示:目前只能查询金融社保卡制卡进度</p>
+<div class="weui-btn_area">
+    <a class="weui-btn weui-btn_primary" id="button" href="javascript:">查询</a>
 </div>
 </form>
 </body>
