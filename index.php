@@ -1,3 +1,4 @@
+<?php require_once('wx_sample.php') ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -5,7 +6,8 @@
 </head>
 <body>
 <?php  
-	echo '欢迎光临';
+	 $wechatObj = new wechatCallbackapiTest();
+	 $wechatObj->valid();
 ?>
 
 </body>
