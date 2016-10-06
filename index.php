@@ -6,8 +6,9 @@
 </head>
 <body>
 <?php  
-	 $wechatObj = new wechatCallbackapiTest();
-	 $wechatObj->valid();
+	 // $wechatObj = new wechatCallbackapiTest();
+	 // $wechatObj->valid();
+	echo '欢迎光临'
 ?>
 
 </body>
