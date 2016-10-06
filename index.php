@@ -30,5 +30,10 @@ echo '<br />' . '欢迎光临' . '<br/>';
 ?>
 
        <a href="javascript:;" class="weui-btn weui-btn_primary">绿色按钮</a>
+       <div class="button_sp_area">
+<a href="#" class="weui_btn weui_btn_plain_default">按钮</a>     
+<a href="#" class="weui_btn weui_btn_plain_primary">按钮</a>     
+<a href="#" class="weui_btn weui_btn_mini weui_btn_primary">按钮</a>     
+<a href="#" class="weui_btn weui_btn_mini weui_btn_default">按钮</a> </div> 
 </body>
 </html>
