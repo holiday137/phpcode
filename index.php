@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
 	<title>我的新浪云</title>
         <!-- 引入 WeUI -->
+        <script language="JavaScript" src="index.js"></script>
         <link rel="stylesheet" href="//res.wx.qq.com/open/libs/weui/1.0.0/weui.css"/>
+        <link rel="stylesheet" type="text/css" href="index.css"/>
 </head>
 <body>
 <?php
@@ -35,5 +37,30 @@ echo '<br />' . '欢迎光临' . '<br/>';
 <a href="#" class="weui_btn weui-btn_plain-primary">按钮</a>
 <a href="#" class="weui_btn weui-btn_mini weui-btn_primary">按钮</a>
 <a href="#" class="weui_btn weui-btn_mini weui-btn_default">按钮</a> </div>
+<form>
+  <div class="weui_cells_title">制卡进度查询</div>
+<div class="weui_cells weui_cells_form">
+    <div class="weui_cell">
+        <div class="weui_cell_hd">
+            <label class="weui_label">姓名</label>
+        </div>
+        <div class="weui_cell_bd weui_cell_primary">
+            <input class="weui_input" name="name" type="text" placeholder="请在此输入姓名" />
+        </div>
+    </div>
+    <div class="weui_cell">
+        <div class="weui_cell_hd">
+            <label class="weui_label">身份证</label>
+        </div>
+        <div class="weui_cell_bd weui_cell_primary">
+            <input class="weui_input" name="idcard" type="text" placeholder="请在此输入身份证号" />
+        </div>
+    </div>
+</div>
+<p class="weui_cells_tips">提示:目前只能查询金融社保卡制卡进度</p>
+<div class="weui_btn_area">
+    <a class="weui_btn weui_btn_primary" id="button" href="javascript:">查询</a>
+</div>
+</form>
 </body>
 </html>
