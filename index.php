@@ -7,6 +7,7 @@
 	<title>我的新浪云</title>
         <!-- 引入 WeUI -->
         <script language="JavaScript" src="index.js"></script>
+        <script src="jquery-3.1.1.min.js"></script>
         <link rel="stylesheet" href="//res.wx.qq.com/open/libs/weui/1.0.0/weui.css"/>
         <link rel="stylesheet" type="text/css" href="index.css"/>
 </head>
