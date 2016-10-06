@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
 	<title>我的新浪云</title>
         <!-- 引入 WeUI -->
-        <script language="JavaScript" src="index.js"></script>
-        <script src="jquery-3.1.1.min.js"></script>
         <link rel="stylesheet" href="//res.wx.qq.com/open/libs/weui/1.0.0/weui.css"/>
+         <script src="jquery-3.1.1.min.js"></script>
+        <script language="JavaScript" src="index.js"></script>
         <link rel="stylesheet" type="text/css" href="index.css"/>
 </head>
 <body>
@@ -32,7 +32,7 @@ print_r($userinfo);
 echo '<br />' . '欢迎光临' . '<br/>';
 ?>
 
-       <a href="javascript:;" class="weui-btn weui-btn_primary">绿色按钮</a>
+ <a href="javascript:;" class="weui-btn weui-btn_primary">绿色按钮</a>
        <div class="button_sp_area">
 <a href="#" class="weui_btn weui-btn_plain-default">按钮</a>
 <a href="#" class="weui_btn weui-btn_plain-primary">按钮</a>
